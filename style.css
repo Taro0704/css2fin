@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+    border: solid 4px black;
+}
+
+table th, table td {
+    border: solid 1px black;
+    /*実線 1px 黒*/
+  }
+
+.input {
+    bottom: none;
+    width: 150px;
+    height: 1px;
+    padding: 8px;
+    font-size: 0.8em;
+    padding-top: 10px;
+    border: 1px solid #d1d1d1;
+}
+
+.select {
+    width: 20%;
+}
+
+.select-country {
+    width: 12%;
+}
+
+.name-margin {
+    padding: 10px 0;
+}
+
+.select-1 {
+    padding: 10px 0;
+}
+
+.form-table {
+    display: flex;
+}
+
+button {
+    margin-top: 20px;
+    width: 40px;
+    height: 20px;
+    border-color: black;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-size: 0.7em;
+}
+
+.form-button {
+    margin-left: 80px;
+}
