@@ -1,1 +1,92 @@
-未完成です
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>試作品</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="headline">コース一覧</h1>
+    <table border="1">
+        <thead class="form-thead">
+            <tr>
+                <th>コース</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+              </tr>
+        </thead>
+        <tbody class="tbody">
+            <tr>
+                <th>前菜</th>
+                <td>アヒージョ</td>
+                <td>アクアパッツァ</td>
+                <td>ポトフ</td>
+              </tr>
+              <tr>
+                  <th>主菜</th>
+                  <td>パエリア</td>
+                  <td>ボロネーゼ</td>
+                  <td>フォアグラ</td>
+                </tr>
+              <tr>
+                  <th>デザート</th>
+                  <td>フラン</td>
+                  <td>ティラミス</td>
+                  <td>カヌレ</td>
+              </tr>
+        </tbody>
+    </table>
+    <h1>Reservation</h1>
+    <section>
+        <form class="form" action="">
+            <table class="table">
+                <div class="name-margin">
+                    <label class="form-table" for="name">名前</label>
+                    <input class="input" type="text" placeholder="Name" id="name" name="name">
+                </div>
+                <div class="name-margin">
+                    <label class="form-table" for="email">メールアドレス</label>
+                    <input class="input" type="mail"  placeholder="Mail Address" id="email" name="email">
+                </div>
+                <div class="name-margin">
+                    <label class="form-table" for="course">コース</label>
+                    <label class="radio">
+                        <input type="radio" name="gender">A
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="gender">B
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="gender">C
+                    </label>
+                </div>
+                <div class="select-1">
+                    <label class="form-table" for="email">支店名</label>
+                    <select  class="select-country" name="" id="">
+                        <option value="menu1">スペイン</option>
+                        <option value="menu2">イタリア</option>
+                        <option value="menu3">フランス</option>
+                    </select>
+                </div>
+                <div>
+                 <label class="form-table" for="email">人数</label>
+                    <input class="input" type="number" id="people" name="people">
+                </div>
+                <div class="name-margin">
+                    <label class="form-table" for="message">コメント</label>
+                    <textarea id="message"   placeholder="コメント" name="message" cols="30" rows="10"></textarea>
+                </div>   
+                <div class="name-margin">
+                    同意する<input type="checkbox">
+                </div>
+                <div class="form-button">
+                    <button class="button button-submission" type="submit">送信</button>
+                </div>
+            </table>
+        </form>
+    </section>
+    
+</body>
+</html>
